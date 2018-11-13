@@ -1,0 +1,20 @@
+version: '3.3'
+
+services:
+  app:
+    container_name: "${IMG_NAME}-container"
+    image: ${IMG_NAME}
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    env_file:
+      - ./environment.vars
+    expose:
+      - "22"
+      - "80"
+      - "443"
+    ports:
+      - "22:22"
+      - "80:80"
+      - "443:443"
+    command: ["printenv"]

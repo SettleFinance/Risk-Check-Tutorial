@@ -1,0 +1,7 @@
+scripts/deployment/.terraform/plugins/windows_amd64/lock.json
+scripts/deployment/terraform.tfstate
+scripts/deployment/terraform.tfstate.backup
+*.info
+*.tfstate
+.terraform
+node_modules
