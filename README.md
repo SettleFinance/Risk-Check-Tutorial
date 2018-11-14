@@ -5,7 +5,7 @@ https://docs.settle.finance/display/SP/Risk+Check+Tutorial
 
 
 ### Get a set of API key & secret for your app
-Go to https://settle.finance/ click on "Developer Tools" then the "Apps" tab and finally click the "Create an App" button.  This will give you and api key & secret for your app to use.  Paste them into the .env file in the repo.
+Go to https://settle.finance/app/developer-tools and click "Apps" tab and finally click the "Create an App" button. This will give you and api key & secret for your app to use.  Paste them into the .env file in the repo.
 
 go to the ui-1 folder /Portfolio-Example/ui-1>
 
@@ -21,5 +21,5 @@ npm run local
 
 This will run the server and open a browser window for the gui (which will not work).  In order to see the gui you have to run it inside of the Settle developer sandbox.  This will handle correctly passing the user id token to your app (more about user id tokens below).
 
-Go to https://settle.finance/ then paste this link http://localhost:3000 and hit enter.  
+Go to https://settle.finance/app/developer-sandbox then paste this link http://localhost:3000 and hit enter.  
 
