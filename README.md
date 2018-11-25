@@ -1,7 +1,7 @@
 The purpose of this tutorial is to show how a developer can make a app for the Settle platform that utilizes both the portfolio and price feed API's.  The app will calculate the common Value At Risk (VAR) and a few other common portfolio analytics
 
 ### Read the full docs here: 
-https://docs.settle.finance/display/SP/Risk+Check+Tutorial
+https://settle.finance/risk-check-tutorial/
 
 
 ### Get a set of API key & secret for your app
